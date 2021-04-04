@@ -23,11 +23,6 @@ export default function NavBar() {
                         className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-red-800">
                         Projects
                     </NavLink>
-                    <NavLink to="/languages"
-                        activeClassName="text-red-100 bg-blue-800"
-                        className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-red-800">
-                        Languages
-                    </NavLink>
                     <NavLink to="/about"
                         activeClassName="text-red-500 bg-blue-800"
                         className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-red-800">
