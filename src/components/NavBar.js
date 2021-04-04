@@ -13,6 +13,11 @@ export default function NavBar() {
                         className="inflex-flex items-center py-6 px-3 mr-4 text-blue-100 hover:text-red-800 text-4xl font-bold cursive tracking-widest">
                         Julius
                     </NavLink>
+                    <NavLink to="/post"
+                        activeClassName="text-red-100 bg-blue-800"
+                        className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-red-800">
+                        Blog Posts
+                    </NavLink>
                     <NavLink to="/project"
                         activeClassName="text-red-100 bg-blue-800"
                         className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-red-800">
