@@ -2,6 +2,11 @@
 @import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
 .cursive {
   font-family: 'Satisfy', cursive;
   font-weight: 700;
@@ -16,3 +21,70 @@
 .home-name {
   font-size: 150px;
 }
+
+.search-box{
+  width: 22%;
+}
+
+.search-box .search-bar{
+  display: block;
+  width:100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color:rgb(220, 220, 220);
+  border-radius: 16px 16px 16px 16px;
+  margin-right: -55px;
+  margin-top: 11%;
+  box-shadow: 0px 5px rgba(0,0,0, 0.2);
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+
+.location-box .location{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp{
+  position: relative;
+  display: inline-block;
+  background-color: rgba(red, green, blue, 0.2);
+  border-radius: 16px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0,0,0, 0.2);
+}
+
+.weather-box .weather{
+  color: #fff;
+  font-size: 28px;
+  font-weight: 300;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+
+
+
