@@ -5,7 +5,7 @@ import { SocialIcon } from "react-social-icons";
 
 const api = {
     key: "0c145d2701598a41a9f7e2604e6f793c",
-    base: "http://api.openweathermap.org/data/2.5/"
+    base: "https://api.openweathermap.org/data/2.5/"
 }
 
 
