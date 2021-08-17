@@ -6,4 +6,4 @@ How to create a weather app in React.JS: https://www.youtube.com/watch?v=GuA0_Z1
 
 API for weather taken from : https://openweathermap.org/api
 
-Project can be found in GitHub: https://github.com/Julius-88/my-portfolio
+Here is the link to the website: https://juliusportfolio.netlify.app/
